@@ -20,35 +20,18 @@
 }
 
 .ant-btn {
-  border: 1px;
   font-weight: 500;
-  color: white;
+  color: #fff !important;
+  background: #ff5349;
   border-radius: 125px;
+  border: 2px solid #fff;
   text-transform: uppercase;
   height: 40px;
   min-width: 100px;
+}
 
-  &.ant-btn-default {
-    color: #ff5349;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
-    :active,
-    :hover {
-      color: #f02929 !important;
-    }
-  }
-
-  &.ant-btn-primary {
-    color: #fff;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
-  }
-
-  &.ant-btn-dangerous {
-    color: #fff;
-    background: #f02929;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
-    :hover,
-    :active {
-      color: #fff !important;
-    }
-  }
+.ant-btn-default:not(:disabled):hover {
+  border: none;
+  background: white;
+  color: #ff5349 !important;
 }
