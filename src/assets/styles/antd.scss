@@ -1,0 +1,54 @@
+.ant-layout-header {
+  height: 64px !important;
+  line-height: 64px !important;
+  background-color: #ff5349;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.ant-layout-footer {
+  height: 64px !important;
+  line-height: 64px !important;
+  padding: 0 !important;
+  background-color: #efefef;
+  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0.2), 3px 0 0 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.ant-layout-content {
+  background-color: #ff5349;
+}
+
+.ant-btn {
+  border: 1px;
+  font-weight: 500;
+  color: white;
+  border-radius: 125px;
+  text-transform: uppercase;
+  height: 40px;
+  min-width: 100px;
+
+  &.ant-btn-default {
+    color: #ff5349;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
+    :active,
+    :hover {
+      color: #f02929 !important;
+    }
+  }
+
+  &.ant-btn-primary {
+    color: #fff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
+  }
+
+  &.ant-btn-dangerous {
+    color: #fff;
+    background: #f02929;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.075);
+    :hover,
+    :active {
+      color: #fff !important;
+    }
+  }
+}
